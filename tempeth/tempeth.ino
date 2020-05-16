@@ -7,10 +7,10 @@
 #include <String.h>
 
 #define ONE_WIRE_BUS 12
-#define FIREBASE_HOST "tempeth.firebaseio.com"
+#define FIREBASE_HOST ""
 #define FIREBASE_AUTH ""
-#define WIFI_SSID "Sanjay Shevkar"
-#define WIFI_PASSWORD "san121970"//D2 pin of nodemcu
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""//D2 pin of nodemcu
 
 const long utcOffsetInSeconds = 3600;
 WiFiUDP ntpUDP;
