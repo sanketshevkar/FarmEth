@@ -12,12 +12,12 @@ abi = JSON.parse(fs.readFileSync('Temp_sol_Temp.abi').toString());
 
 // Initialize Firebase (ADD YOUR OWN DATA)
 var config = {
-    apiKey: "AIzaSyAkmsGmaYADtgiRqbwh6EavkoVFM4woVoU",
-    authDomain: "tempeth.firebaseapp.com",
-    databaseURL: "https://tempeth.firebaseio.com",
-    projectId: "tempeth",
-    storageBucket: "tempeth.appspot.com",
-    messagingSenderId: "413640581007"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
   };
   
   firebase.initializeApp(config);
